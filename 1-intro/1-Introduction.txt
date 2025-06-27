@@ -1,0 +1,33 @@
+
+
+- WHAT IS JAVASCRIPT AND WHY WE USE IT ?
+
+--> JAVASCRIPT IS A SCRIPTING LANGUAGE. AND IT IS LIGHT WEIGHT.
+--> JAVASCRIPT IS USED TO PERFORM OPERATIONS ON WEBPAGE / WEBSITE.
+--> EXAMPLE --> 
+    1. SEND DATA OR RECEIVE DATA FROM SERVER.
+    2. ADDITION, SUBTRACTION, ETC (ADD TO CART)
+    3. AND, MANY MORE. 
+
+
+- WHICH TAG DO WE USE FOR JAVASCRIPT ?
+
+--> <script></script> TAG IS USED JAVASCRIPT. 
+
+
+- WHERE WILL BE USE <script> TAG IN HTML DOCUMENT ?
+
+--> 1. INSIDE OF HEAD TAG
+    2. INSIDE OF BODY TAG
+    3. EXTERNAL JAVASCRIPT
+
+
+- TO DISPLAY ANY DATA IN WEBPAGE USING JAVASCRIPT WE USE - 
+    document.writeln("Hello World !");
+
+    - document is an object
+    - writeln() is a method which is use to display data on webpage.
+    - "  " whatever written inside of this it will be display on webpage.  
+
+    NOTE -->  "  " is represented as String.  
+
