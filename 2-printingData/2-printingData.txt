@@ -1,0 +1,16 @@
+
+- TO DISPLAY ANY DATA IN WEBPAGE USING JAVASCRIPT WE USE - 
+    document.writeln("Hello World !");
+
+    - document is an object
+    - writeln() is a method which is use to display data on webpage.
+    - "  " whatever written inside of this it will be display on webpage.  
+
+    NOTE -->  "  " is represented as String.  
+
+
+EXAMPLE --> 
+
+    document.writeln("Hello world");
+
+    document.writeln(" <h2> heading </h2>");

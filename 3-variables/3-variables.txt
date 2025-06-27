@@ -1,0 +1,19 @@
+
+- WHAT IS VARIABLE ?
+
+--> VARIABLE IS A CONTAINER WHICH IS USED TO STORE DATA.
+--> TO CREATE A VARIABLE WE USE - 
+    'var' KEYWORD
+
+--> MATHS --> a = 10
+
+--> JS --> 
+
+var a = 10;
+document.writeln( a );  //output --> 10
+
+
+- TYPES OF VARIABLE IN JAVASCRIPT ?
+
+
+- RULES TO DECLARE A VARIABLE NAME ?
