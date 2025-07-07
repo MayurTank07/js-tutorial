@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <script>
+
+        var age = 24;   // global variable --> we can use these type of variable all over the program
+
+        function msg() {
+            var name = "dexter";    // local variable --> only for that function where they have declared
+            document.writeln(name);
+            document.writeln(age);
+        }
+
+        msg();
+        document.writeln(name);  // error 
+        
+        document.writeln(age);
+    </script>
+
+
+</body>
+</html>

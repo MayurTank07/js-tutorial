@@ -1,0 +1,48 @@
+
+- WHAT IS DATATYPES ? 
+
+--> DATATYPES IS USED TO SPECIFY WHICH TYPE OF DATA WE ARE GOING TO STORE INSIDE OF VARIABLE.
+
+e.g -- 
+    var name = "dexter";  --> string data
+
+    var age = 24;  --> number data
+
+    var marks = 89.89;  -->  float data (float means which has a decimal point)
+
+- TYPES OF DATATYPES :
+
+    1. PRIMITIVE DATATYPES
+        a. number
+        b. string
+        c. undefinded
+        d. null
+        e. boolean
+
+    2. NON PRIMITIVE DATATYPE
+        a. object
+        b. array
+        c. function
+        d. date
+        e. regex (regular expression) 
+        // we will see these things further properply.
+
+
+
+1. PRIMITIVE DATATYPES
+        a. number       --> 90, 75, 23, also has 68.12, 87.34
+        b. string       --> "dexter", "chlore", "logan" 
+        c. undefined    --> we haven't created but still we print then it 
+                            printed "x is undefined"document.write(x);
+        d. null         --> var name = null;  (null means "empty")
+        e. boolean      --> boolean only store "true" or "false" value
+
+2. NON PRIMITIVE DATATYPE
+    --> created by using PRIMITIVE DATATYPES.
+
+e.g. --> 
+
+    function msg(){
+        var name = "dexter";
+        var age = 20;  
+    }

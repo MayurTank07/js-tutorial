@@ -1,0 +1,27 @@
+
+- WHAT IS OPERATORS IN JS ?
+
+--> OPERATORS ARE SPECIAL SYMBOLS WHICH IS USED TO PERFORM SOME OPERATIONS ON WEB PAGE.
+        + - * / % etc
+
+TYPES OF OPEATORS ?
+
+    1. ARITHMETIC OPERATORS 
+        +    -     *     /     % (modulo operator)
+
+    2. ASSIGNMENT OPERATORS
+        =    +=    -=     *=     /=     %= 
+
+    3. RELATIONAL / COMPARISON OPERATORS
+        ==    !=     <    >     <=      >= 
+
+    4. LOGICAL OPEATORS
+        &&         ||         ! 
+       (and)      (or)      (not)
+
+    5. TERNARY OPEATORS 
+        (CONDITION) ?  STATEMENT1 : STATEMENT2;
+
+    6. BITWISE OPEATORS
+        --> used only for binary operation 
+        --> what is binary ? --> binary means 0 or 1
