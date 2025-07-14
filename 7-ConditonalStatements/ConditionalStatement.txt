@@ -1,0 +1,46 @@
+
+
+Conditional Statements ?
+-- this concept is used to check conditions
+
+
+Conditional Statements has -->
+
+    1. if statement
+    2. if-else statement
+    3. if-else if ladder statement
+    4. Nested if statement
+    5. switch statement
+
+
+1. if statement --> used to check single condition 
+                --> if condition is true, then only execute if block
+
+    Syntax --> 
+
+        if ( condtions )
+        {
+            //code
+            //code
+            //code
+        }
+
+
+2. if-else statement --> used to check single condition
+                     --> if condition is true, then only execute if block
+                     --> if condition is not true, then it will execute else block 
+
+    Syntax --> 
+
+        if ( condtions )
+        {
+            //code
+            //code
+            //code
+        }
+        else 
+        {
+            //code
+            //code
+            //code
+        }
