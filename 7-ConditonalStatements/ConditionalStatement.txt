@@ -44,3 +44,31 @@ Conditional Statements has -->
             //code
             //code
         }
+
+3. if-else if ladder statement 
+
+    --> to check multiple conditions 
+    --> in this concept we will check multiple conditions by using else if block
+
+    Syntax --> 
+
+        if ( condition )
+        {
+            //code
+            //code
+        }
+        else if ( condtion )
+        {
+            //code
+            //code
+        }
+        else if ( condtion )
+        {
+            //code
+            //code
+        }
+        else 
+        {
+            //code
+            //code
+        }

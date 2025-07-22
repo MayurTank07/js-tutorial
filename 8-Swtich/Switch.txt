@@ -1,0 +1,27 @@
+
+    WHAT IS SWITCH ?
+
+    --> switch is a concept which is used to check expessions / values.
+
+    SYNTAX --> 
+
+    switch( expression )
+    {
+        case 1:
+            // code 
+        break;
+        
+        case 2:
+            // code 
+        break;
+        
+        case 3:
+            // code 
+        break;
+
+        default:
+            // code
+    }
+
+// break --> break is a keyword which is used to break the execution of switch statement
+
