@@ -21,7 +21,19 @@
             //code
         }
         
+    2. FOR LOOP --> FOR LOOP IS ALSO KNOWN AS PRE TESTED LOOP
+                --> USED TO CHECK CONDITION 
+                --> FOR LOOP WILL BE EXECUTE UNTIL CONDITION GETS FALSE
 
+    SYNTAX --> 
 
+        for ( initialization ; condition ; incr/decr )
+        {
+            //code
+            //code
+        }
 
+    3. FOR EACH LOOP --> USED TO ITERATE EACH ELEMENT OF AN ARRAY
+
+    
 
