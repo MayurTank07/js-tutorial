@@ -1,25 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
-    
+
     <script>
-        
-        var name =  "DEXTER", "KRYSTAL", "CHLORE", "SNEAKERS";  // WRONG
+
+        // var name =  "DEXTER", "KRYSTAL", "CHLORE", "SNEAKERS";  // WRONG
 
 
         // ARRAY --> USED TO STORE MULTIPLE VALUES IN A SINGLE VARIABLE
         //       --> ARRAY IS REPRESENTED BY [ ]  
 
-        var names =  ["DEXTER", "KRYSTAL", "CHLORE", "SNEAKERS"];
+        var names = ["DEXTER", "KRYSTAL", "CHLORE", "SNEAKERS"];
+
+
+        // for each loop
         
+        // names.forEach(
+        //     function(name){
+        //         document.writeln(name + "<br>")
+        //     }
+        // )
+
+        // for in loop
+        for (var n in names) {
+            document.writeln(names[n] + "<br>");
+        }
+
+        // names[0]
+        // names[1]
+        // names[2]
+        // names[3]
+
+       
 
 
     </script>
 
 </body>
+
 </html>
