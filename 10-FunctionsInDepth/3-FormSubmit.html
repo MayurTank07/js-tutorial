@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        #formData {
+            border: 1px solid black;
+            padding: 25px;
+            background-color: lightblue;
+            margin: 25px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div id="formData">
+
+        <form onsubmit="handleSubmit()" >
+
+            <label for="fullname">Enter your Fullname : </label>
+            <input type="text" name="fullname" id="fullname">
+            <br><br>
+
+            <label for="desgination">Enter your desgination : </label>
+            <input type="text" name="desgination" id="desgination">
+            <br><br>
+
+            <label for="salary">Enter your Salary : </label>
+            <input type="number" name="salary" id="salary">
+            <br><br>
+
+            <input type="submit" value="Submit">
+            <input type="reset" value="reset">
+        </form>
+
+    </div>
+
+
+    <script>
+
+        function handleSubmit()
+        {
+            alert("Are you sure, You want to submit this data ?")
+            document.writeln("Form submitted");
+        }
+
+    </script>
+
+</body>
+
+</html>

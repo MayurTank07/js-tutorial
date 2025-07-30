@@ -1,0 +1,64 @@
+
+    WHAT IS A FUNCTION ?
+
+    --> FUNCTION IS A BLOCK OF CODE     WHICH WILL BE EXECUTED     WHEN IT GETS CALL.
+
+    --> TO CREATE A FUNCTION WE USE A KEYWORDS   -->    function 
+
+    --> SYNTAX --> 
+
+        // FUNCTION DEFINATION
+
+            function func_name( ) 
+            {
+                //CODE
+                //CODE
+            }
+
+
+        // FUNCTION CALL
+
+            func_name( )
+
+
+
+    EXAMPLE 1 --> 
+
+    // function defination 
+
+        function msg() 
+        {
+            document.writeln("hello msg");
+        }
+
+    // function call 
+        msg()
+        msg()
+        msg()
+
+    TYPES OF FUNCTIONS --> 
+
+        1. BUILT-IN FUNCTIONS
+        2. USER DEFINED FUNCTIONS
+
+
+        1. BUILT-IN FUNCTION --> THESE FUNCTION ARE ALREADY PRESENT IN JS
+            e.g. --> alert()  --> used to get an alert pop-up with a custom message
+
+        2. USER DEFINED FUNCTION --> THESE FUNCTION CREATED BY USER 
+                                 --> WE CAN GIVE ANY FUNCTION NAME BUT EXCEPT BUILT IN FUNCTION NAMES
+
+                function msg() {
+                    // valid function
+                }
+
+
+            // alert is a built in function, we cannot create a function with same built in function name .
+
+                function alert()
+                {
+                    // invalid function
+                }
+
+        
+    PARAMETERS AND ARGUMENTS IN FUNCTION --> 
