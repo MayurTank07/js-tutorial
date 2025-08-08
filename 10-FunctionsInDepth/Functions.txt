@@ -62,3 +62,24 @@
 
         
     PARAMETERS AND ARGUMENTS IN FUNCTION --> 
+
+    // function defination
+    function sum()
+    {
+        var no1 = 10, no2 = 5;
+        document.writeln(no1 + no2);    //output - 15
+    }
+
+    sum();  --> function call
+    sum();  --> function call
+    sum();  --> function call
+
+
+    // function defination
+    function sum(no1, no2)
+    {
+        document.writeln(no1 + no2);  --> 25 , 20
+    }
+
+    sum(10, 15);
+    sum(5, 15);

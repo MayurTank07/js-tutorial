@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        // function sum()
+        // {
+        //     var no1 = 10, no2 = 5;
+        //     document.writeln(no1 + no2);   // 15
+        // }
+
+        // sum();
+        // sum();
+        // sum();
+        // sum();
+        // sum();
+        // sum();
+
+
+        // function defiantion --> variable written inside of this is known as arguments
+        function sum(no1, no2)
+        {
+            document.writeln(no1 + no2)
+        }
+
+        // values written inside of function call is known as parameters
+        sum(10, 5);
+        sum(20, 4);
+
+
+        // EXAMPLE 3
+        function msg(name)
+        {
+            document.writeln("this message is for " + name + "<br/>");
+        }
+
+        msg("dexter");
+        msg("akshay");
+        msg("sneakers");
+
+
+
+        // EXAMPLE 4
+
+        function details(name, age, salary, companyName )
+        {
+            document.writeln("\n**************************************<br/>");
+            document.writeln("My Name is " + name + "<br/>");
+            document.writeln("My Age is " + age + "<br/>");
+            document.writeln("My Salary is " + salary + "<br/>");
+            document.writeln("My Company Name is " + companyName + "<br/>");
+            document.writeln("\n**************************************\n<br/><br/><br/>");
+        }
+
+        details("dexter", 24, 99999, "StarX" );
+        details("sneakers", 21, 878787, "StarX" );
+
+    </script>
+
+</body>
+</html>
