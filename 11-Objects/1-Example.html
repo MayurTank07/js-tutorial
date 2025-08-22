@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // var name = "akshay";
+        // var age = 24;
+        // var loc = "mumbai";
+        // var salary = 686868;
+        
+        // var name1 = "vighnesh";
+        // var age1 = 24;
+        // var loc1 = "mumbai";
+        // var salary1 = 585858;
+
+        // document.writeln(name);
+        // document.writeln(age);
+        // document.writeln(loc);
+        // document.writeln(salary);
+        // document.writeln(name1);
+        // document.writeln(age1);
+        // document.writeln(loc1);
+        // document.writeln(salary1);
+
+        // object is a collection of key : value
+        
+        // METHOD 1 -  OBJECT LITERAL (LITERAL MEANS VALUE)
+        let students = {
+            name : "akshay",
+            age : 24,
+            loc : "mumbai",
+            salary : 686868
+        };
+
+        document.writeln(students.name);
+        document.writeln(students.age);
+        document.writeln(students.loc);
+        document.writeln(students.salary);
+
+
+
+        // METHOD 2 -> using new Object();
+        // new is a keyword -> used to create an object
+
+        // let persons = new Object();
+        // persons.name = "dexter";
+        // persons.age = 24;
+        // persons.loc = "Mumbai";
+        // persons.salary = 99999;
+
+        //  document.writeln(persons.name);
+        // document.writeln(persons.age);
+        // document.writeln(persons.loc);
+        // document.writeln(persons.salary);
+
+
+        // METHOD 3 -> using constructor function 
+
+        // eg 1
+        function Person(name, age, loc, salary)
+        {
+            this.name = name;
+            this.age = age;
+            this.loc = loc;
+            this.salary =salary;
+        }
+
+        let p1 = new Person("dexter", 24, "Mumbai", 89999);
+        let p2 = new Person("akshay", 24, "Mumbai", 797979);
+        let p3 = new Person("sneakers", 23, "Mumbai", 787878);
+        
+
+        // eg. 2
+        function Students(rollno, name, marks)
+        {
+            this.rollno = rollno;
+            this.name = name;
+            this.marks = marks;
+        }
+
+        let s1 = new Students(101, "dexter", 98);
+        let s2 = new Students(102, "chlore", 95);
+
+        document.writeln(s1.name);  // dexter
+        document.writeln(s1.marks);  // 98
+
+        document.writeln(s2.name);  // chlore
+        document.writeln(s2.marks);  // 95
+
+
+    </script>
+</body>
+</html>

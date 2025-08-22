@@ -1,0 +1,26 @@
+
+
+
+    var name = "dexter";
+
+    const num = 10;
+
+    let fullname = "dextermorgan";
+
+    variable only stores values.
+
+    
+    
+    object -> value store same as variable 
+            -> object stores key : value pair
+
+    let names = "dexter";   // variable
+
+    // to create object we use { } and in that { } we put key and value pair
+    let names = {
+        person1 : "dexter",
+        person2 : "chlore",
+        person3 : "sneakers"
+    }
+
+

@@ -45,8 +45,8 @@
         1. BUILT-IN FUNCTION --> THESE FUNCTION ARE ALREADY PRESENT IN JS
             e.g. --> alert()  --> used to get an alert pop-up with a custom message
 
-        2. USER DEFINED FUNCTION --> THESE FUNCTION CREATED BY USER 
-                                 --> WE CAN GIVE ANY FUNCTION NAME BUT EXCEPT BUILT IN FUNCTION NAMES
+        2. USER DEFINED FUNCTION --> THESE FUNCTION CREATED BY USER / PROGRAMMER
+                                 --> WE CAN GIVE ANY FUNCTION NAME BUT EXCEPT KEYWORDS
 
                 function msg() {
                     // valid function
@@ -76,10 +76,11 @@
 
 
     // function defination
+    // arguments written inside of function name -> (no1, no2)
     function sum(no1, no2)
     {
         document.writeln(no1 + no2);  --> 25 , 20
     }
 
-    sum(10, 15);
+    sum(20, 24);  -> parameter - values inside of function call 
     sum(5, 15);
