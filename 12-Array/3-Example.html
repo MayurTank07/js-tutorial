@@ -53,6 +53,45 @@
         }
         document.writeln("<br/>");
         
+
+
+        let nums = [10, 20, 30, 40, 50, 30];
+        document.writeln("Index of : ");
+        document.writeln( nums.indexOf(30) );   // 2 --> returns an index no of a particular element
+        document.writeln("<br/>");
+        
+
+        document.writeln("Index of : ");
+        document.writeln( nums.lastIndexOf(30) );   // 5 --> returns an index no of a particular element
+        document.writeln("<br/>");
+
+        
+        document.writeln("Includes : ");
+        document.writeln( nums.includes(20) );   // true
+        document.writeln("<br/>");
+                
+        document.writeln("FInds : ");
+        let newArr = nums.find( (x)=> {
+            return x > 20;
+        } );
+        document.writeln(newArr);
+        document.writeln("<br/>");
+        
+
+
+        document.writeln("FIndsIndex : ");
+        let index  = nums.findIndex( (x)=> {
+            return x > 20;
+        } );
+        document.writeln(index);
+        document.writeln("<br/>");
+
+                
+
+
+
+
+
     </script>
 
 
