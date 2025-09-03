@@ -9,3 +9,7 @@
 
     -> DATA INSIDE OF AN ARRAY IS KNOWN AS ELEMENTS 
 
+    NOTE -> KEYWORDS MEANS RESERVED WORDS. KEYWORDS ARE BUILT-IN WORDS. 
+            IT'S MEANING IS FIXED. 
+
+            var ,  function , new (used to create an new object)

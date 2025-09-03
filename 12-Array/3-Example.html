@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+
+        let arr = [1 , 2, 3];
+        document.writeln("Normal Array : ");
+        for(var i = 0 ; i < arr.length ; i++ )
+        {
+            document.writeln(arr[i])
+        }
+        document.writeln("<br/>");
+        
+        
+        arr.push(4, 5, 6);  // arr = [1, 2, 3, 4]
+        document.writeln("Push : ");
+        for(var i = 0 ; i < arr.length ; i++ )
+        {
+            document.writeln(arr[i])
+        }
+        document.writeln("<br/>");
+
+
+        arr.pop();   // arr = [1, 2, 3, 4, 5]
+        document.writeln("Pop : ");
+         for(var i = 0 ; i < arr.length ; i++ )
+        {
+            document.writeln(arr[i])
+        }
+        document.writeln("<br/>");
+        
+        
+        arr.unshift(0);   // arr = [0 , 1, 2, 3, 4, 5]
+        document.writeln("Unshift : ");
+         for(var i = 0 ; i < arr.length ; i++ )
+        {
+            document.writeln(arr[i])
+        }
+        document.writeln("<br/>");
+        
+        
+        arr.shift();   // arr = [1, 2, 3, 4, 5]
+        document.writeln("Shift : ");
+         for(var i = 0 ; i < arr.length ; i++ )
+        {
+            document.writeln(arr[i])
+        }
+        document.writeln("<br/>");
+        
+    </script>
+
+
+</body>
+</html>
