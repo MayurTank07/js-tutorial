@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+
+
+        // let d = new Date();
+        // document.writeln(d);
+        
+        
+        
+        // whenever we create a date object at that time it will returns current datetime
+
+        // let d = new Date();
+        // document.writeln(d);   // currect time Date 
+        
+    // ---------------------------------------------------------------------------------------
+
+        // [JAN, FEB, MAR, APR, MAY, JUN, JULY, AUG, SEP, OCT, NOV, DEC]
+        // [0  ,  1  , 2 ,  3,   4,   5,   6,    7,   8,   9,   10,  11]
+
+        // hh - 24 hrs 
+
+        // yyyy, mm, dd, hr, min, sec, ms 
+
+        // ms - 1sec = 1000ms
+
+        // let d = new Date(2005, 8, 14, 7, 50, 30, 500);
+        // document.writeln(d + "<br/>");
+
+        // let year = d.getFullYear();
+        // document.writeln(year);
+
+        // document.writeln(d.getFullYear());
+        // document.writeln(d.getMonth());
+
+        // document.writeln(d.getTime());  
+
+
+        let d = new Date();
+        // we are displaying date obj but it will be printted as a string because whenever we print date object it will be converted into string automatically by using toString() method internally. 
+        
+        // toSrting() is a built in method used to convert any datatype into string.
+        // document.writeln(d); // it be printed as a string   
+
+        document.writeln(d.toString() + "<br/>");
+        document.writeln(d.toDateString() + "<br/>");
+        document.writeln(d.toTimeString() + "<br/>");
+        document.writeln(d.toISOString()  + "<br/>");
+        document.writeln(d.toLocaleDateString()  + "<br/>");
+
+
+    </script>
+
+
+</body>
+</html>
