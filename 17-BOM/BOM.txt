@@ -1,0 +1,13 @@
+
+WHAT IS BOM ?
+ 
+    -> The Browser Object Model (BOM) is used to interact with the browser.
+
+    -> window.alert()
+        or 
+        alert() 
+
+    -> window is an object and in that object we have alert() method
+
+
+  

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    
+    <input type="button" value="delete record" onclick="handleDelete()"/>
+
+
+    <script>
+        function handleDelete(){
+            let c = confirm("Are you sure ? You want to delete records !!");  // OK -> true
+            if(c)
+            {
+                alert("Record deleted");
+            }
+            else {
+                alert("Failed to delete records");
+            }
+        }
+    </script>
+
+
+
+</body>
+</html>
