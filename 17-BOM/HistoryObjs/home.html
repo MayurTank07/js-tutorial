@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h1>Home Page</h1>
+
+    <p> <a href="home.html"> Home </a> </p>
+    <p> <a href="about.html"> About </a> </p>
+    <p> <a href="services.html"> Services </a> </p>
+    <p> <a href="contact.html"> Contact </a> </p>
+
+    <button onclick="handlePrevious()">Previous</button>
+    <button onclick="handleNext()">Next</button>
+
+    <script>
+        function handlePrevious(){
+            history.back();
+        }
+
+        function handleNext(){
+            history.forward();
+        }
+    </script>
+
+</body>
+</html>
