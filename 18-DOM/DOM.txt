@@ -1,0 +1,7 @@
+
+
+    WHAT IS DOM ?
+
+        -> DOCUMENT OBJECT MODEL 
+
+        -> document.writeln()

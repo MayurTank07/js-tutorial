@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <title>JavaScript DOM</title>
+</head>
+<body>
+  
+    <h2>The getElementsByName method</h2>
+   
+    <input name="devices" type="checkbox" value="Phone">  Phone
+
+    <input name="devices" type="checkbox" value="Laptop">  Laptop
+   
+    <input name="furnitures" type="checkbox" value="Sofa"> Sofa
+
+   <p>Check the checkboxes that have name = "devices"</p>
+   
+   <button onclick="showChecked()">Show Checked Devices</button>
+   
+   <p id="output">   </p>
+
+   <script>
+      // First: auto-check devices
+      const collection = document.getElementsByName("devices");   // [phone, laptop]
+      
+      for(let i = 0; i < collection.length; i++){  
+         if(collection[i].type == "checkbox"){  
+            collection[i].checked = true;  
+         }  
+      }
+
+      // Second: show checked values
+      function showChecked() {
+         let result = [];
+         for(let i = 0; i < collection.length; i++){  
+            if(collection[i].checked){  
+               result.push(collection[i].value);
+            }
+         }
+         document.getElementById("output").innerText = "Checked: " + result.join(", ");
+      }
+   </script>
+</body>
+</html>
