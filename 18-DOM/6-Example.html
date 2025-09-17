@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <form name="myForm">
+        
+        <input type="password" name="pass" onkeyup="handlePassword()">
+        Password health : <span id="passHealth">none</span>
+
+    </form>
+
+    <script>
+        function handlePassword(){
+            // alert("key released");
+            var msg = "";   // poor or good
+
+            if(document.myForm.pass.value.length > 5)
+            {
+                msg = "good";   
+            }
+            else {
+                msg = "poor";
+            }
+
+            document.getElementById("passHealth").innerText = msg;
+        }
+    </script>
+
+</body>
+</html>

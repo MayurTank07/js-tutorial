@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <form onsubmit="return handleLogin()">
+        <label for="username">Enter your Username : </label>
+        <input type="text" name="username">
+
+        <br> <br>
+
+        <label for="password">Enter your Password : </label>
+        <input type="password" name="password">
+
+        <br><br>
+        <button type="submit">Login</button>
+    </form>
+
+    <script>
+        function handleLogin() {
+            let username = document.getElementsByName("username")[0].value;  // dexter
+            let password = document.getElementsByName("password")[0].value;  // dexter@123
+
+            alert("Username: " + username + "\nPassword: " + password);
+
+            return false; // prevent form submission refresh
+        }
+    </script>
+
+</body>
+
+</html>
